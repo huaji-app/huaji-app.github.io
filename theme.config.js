@@ -1,13 +1,14 @@
 /* eslint-disable import/no-anonymous-default-export */
 
 export default {
-  // github: 'https://github.com/shuding/nextra',
+  github: 'https://github.com/huaji-app',
   // projectChatLink: 'https://discord.gg/hEM84NMkRv', // Next.js discord server
   docsRepositoryBase:
-    'https://github.com/shuding/nextra/tree/core/examples/docs/pages',
+    'https://github.com/huaji-app/pages',
+  titleSuffix: 'HuaJi',
   logo: (
     <>
-      <span className="font-extrabold">HuaJi</span>
+      <span className="font-extrabold">滑记</span>
       <span className="mr-2 ml-2 text-gray-500 font-normal hidden md:inline">
         huaji
       </span>
@@ -33,6 +34,6 @@ export default {
   nextLinks: true,
   floatTOC: true,
   footer: true,
-  footerEditLink: ({ locale }) => <></>,
-  footerText: <></>
+  footerEditLink: ({ locale }) => <>编辑该文档</>,
+  footerText: <>huaji</>
 }
