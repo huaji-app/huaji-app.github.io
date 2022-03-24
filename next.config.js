@@ -6,10 +6,4 @@ const withNextra = require('nextra')({
 
 module.exports = withNextra({
   reactStrictMode: true,
-  assetPrefix: '/docs',
-  rewrites() {
-    return [
-      { source: '/docs/_next/:path*', destination: '/_next/:path*' }
-    ]
-  }
 })
